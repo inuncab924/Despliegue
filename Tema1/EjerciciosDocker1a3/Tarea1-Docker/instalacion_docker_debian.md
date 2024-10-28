@@ -38,9 +38,6 @@ sudo install -m 0755 -d /etc/apt/keyrings
 
 <<<<<<< HEAD
 ![directorio](77.png)
-=======
-![directorio](directory.png)
->>>>>>> 8e1cf7a33ba60888e4ad072e188542042d75f008
 
 ---
 
