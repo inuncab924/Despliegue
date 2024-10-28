@@ -36,7 +36,7 @@ Creamos un directorio en `/etc/apt/keyrings` para almacenar la clave de Docker.
 sudo install -m 0755 -d /etc/apt/keyrings
 ```
 
-![directorio](77.jpg)
+![directorio](77.png)
 
 ---
 
