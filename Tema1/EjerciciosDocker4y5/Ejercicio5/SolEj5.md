@@ -11,7 +11,7 @@ Para obtener la dirección IP del contenedor `web`, se utilizó el siguiente com
 sudo docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' web
 ```
 
-Salida (ejemplo):
+Salida 
 ```bash
 172.17.0.2
 ```
@@ -27,7 +27,7 @@ Para obtener la redirección de puertos del contenedor `web`, se utilizó el sig
 sudo docker port web
 ```
 
-Salida (ejemplo):
+Salida
 ```bash
 80/tcp -> 0.0.0.0:8181
 80/tcp -> [::]:8181
@@ -44,7 +44,7 @@ Para obtener la dirección IP del contenedor `bbdd`, se utilizó el siguiente co
 sudo docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' bbdd
 ```
 
-Salida (ejemplo):
+Salida
 ```bash
 172.17.0.3
 ```
@@ -60,7 +60,7 @@ Para obtener la redirección de puertos del contenedor `bbdd`, se utilizó el si
 sudo docker port bbdd
 ```
 
-Salida (ejemplo):
+Salida 
 ```bash
 3306/tcp -> 0.0.0.0:3336
 3306/tcp -> [::]:3336
