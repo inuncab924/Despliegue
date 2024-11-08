@@ -105,6 +105,4 @@ Se accede a la base de datos `prueba` con el usuario y contraseña indicados.
 
 ![Imagen de la comprobación de acceso a la base de datos](rootEinvitado.png)
 
-## Conclusión
 
-Los contenedores fueron arrancados correctamente, y los archivos `index.html` e `index.php` fueron creados dentro del contenedor `web`. La base de datos fue configurada con éxito en el contenedor `bbdd` con la base de datos `prueba` y el usuario `invitado`.
