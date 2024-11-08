@@ -17,7 +17,7 @@ Salida:
 b8eb990c42c8bf00ab4d5633103cd99200c6f91dd9df17406a6b9ac78ddbefbc
 ```
 
-![Imagen del comando y salida](1.png)
+![Imagen del comando y salida](capturas/1.png)
 
 Este comando ejecutó el contenedor con el nombre `web`, mapeando el puerto 80 del contenedor al puerto 8181 en la máquina local.
 
@@ -43,7 +43,7 @@ echo "<h1>HOLA SOY IGNACIO NUNEZ</h1>" > index.html
 echo "<?php phpinfo(); ?>" > index.php
 ```
 
-![Imagen de la verificación de archivos](Creacion.phpy.html.png)
+![Imagen de la verificación de archivos](capturas/Creacion.phpy.html.png)
 
 ### Verificación de los archivos:
 ```bash
@@ -55,7 +55,7 @@ Salida:
 index.html  index.php
 ```
 
-![Imagen de la verificación de archivos](lsdocs.png)
+![Imagen de la verificación de archivos](capturas/lsdocs.png)
 
 
 ## 3. Arranque del contenedor `bbdd` (MariaDB)
@@ -72,7 +72,7 @@ Salida:
 f35ed69a2e19a261cdbe12ee06189f4d26419fb3afb23a55ccaf6345ad02937b
 ```
 
-![Imagen del comando y salida](7credencialesBBDD.png)
+![Imagen del comando y salida](capturas/7credencialesBBDD.png)
 
 Este comando ejecutó el contenedor `bbdd`, mapeando el puerto 3306 del contenedor al puerto 3336 en la máquina local.
 
@@ -88,7 +88,7 @@ f35ed69a2e19   mariadb          "docker-entrypoint.s…"   2 minutes ago   Up 2 
 b8eb990c42c8   php:7.3-apache   "docker-php-entrypoi…"   4 minutes ago   Up 4 minutes   0.0.0.0:8181->80/tcp, [::]:8181->80/tcp       web
 ```
 
-![Imagen de contenedores en ejecución](dudu.png)
+![Imagen de contenedores en ejecución](capturas/dudu.png)
 
 ## 4. Comprobación de acceso a los servicios
 
@@ -103,6 +103,6 @@ mysql -h localhost -P 3336 -u root -p
 
 Se accede a la base de datos `prueba` con el usuario y contraseña indicados.
 
-![Imagen de la comprobación de acceso a la base de datos](rootEinvitado.png)
+![Imagen de la comprobación de acceso a la base de datos](capturas/rootEinvitado.png)
 
 
