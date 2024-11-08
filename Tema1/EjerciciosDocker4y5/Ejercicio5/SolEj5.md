@@ -16,7 +16,7 @@ Salida
 172.17.0.2
 ```
 
-![Imagen de obtener IP del contenedor web](ObtengoIP.png)
+![Imagen de obtener IP del contenedor web](capturas/ObtengoIP.png)
 
 ## 2. Obtener la redirección de puertos del contenedor `web`
 
@@ -33,7 +33,7 @@ Salida
 80/tcp -> [::]:8181
 ```
 
-![Imagen de redirección de puertos del contenedor web](direccionDePuertos.png)
+![Imagen de redirección de puertos del contenedor web](capturas/direccionDePuertos.png)
 
 ## 3. Obtener la dirección IP del contenedor `bbdd`
 
@@ -49,7 +49,7 @@ Salida
 172.17.0.3
 ```
 
-![Imagen de obtener IP del contenedor bbdd](ObtengoIPBBDD.png)
+![Imagen de obtener IP del contenedor bbdd](capturas/ObtengoIPBBDD.png)
 
 ## 4. Obtener la redirección de puertos del contenedor `bbdd`
 
@@ -66,5 +66,5 @@ Salida
 3306/tcp -> [::]:3336
 ```
 
-![Imagen de redirección de puertos del contenedor bbdd](DireccionPuertosContenedor.png)
+![Imagen de redirección de puertos del contenedor bbdd](capturas/DireccionPuertosContenedor.png)
 
