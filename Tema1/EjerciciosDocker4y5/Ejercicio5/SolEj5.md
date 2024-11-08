@@ -16,7 +16,7 @@ Salida
 172.17.0.2
 ```
 
-![Imagen de obtener IP del contenedor web](obtengoIP.png)
+![Imagen de obtener IP del contenedor web](ObtengoIP.png)
 
 ## 2. Obtener la redirección de puertos del contenedor `web`
 
